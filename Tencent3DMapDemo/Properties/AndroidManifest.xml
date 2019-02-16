@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="com.demo.Tencent3DMapDemo">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+
+  <!--腾讯地图 SDK 要求的权限(开始)-->
+  <!--访问网络获取地图服务-->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <!--检查网络可用性-->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <!-- 访问WiFi状态 -->
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <!--需要外部存储写权限用于保存地图缓存-->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <!--获取 device id 辨别设备-->
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <!--获取日志读取权限，帮助我们提高地图 sdk 稳定性-->
+  <uses-permission android:name="android.permission.READ_LOGS"/>
+  <!--腾讯地图 SDK 要求的权限(结束)-->
+  
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+
+    <meta-data android:name="TencentMapSDK" android:value="C7UBZ-Z7Y3U-6Z5VS-BJZYG-S3XCS-L3BC4" />
+    
+  </application>
+</manifest>

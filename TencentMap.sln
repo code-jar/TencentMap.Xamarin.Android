@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentLocationSdk", "TencentLocationSdk\TencentLocationSdk.csproj", "{9E67CFA9-D383-4459-80EB-13F79E0EFADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentMapSDK_Android_2D", "TencentMapSDK_Android_2D\TencentMapSDK_Android_2D.csproj", "{AF2B9BDA-AD39-4C7E-94DC-250AB4ECF2CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentMapSDK_Android_3D", "TencentMapSDK_Android_3D\TencentMapSDK_Android_3D.csproj", "{F66D2FA1-55E8-4BF7-9B58-C7761FE45EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TencentMapDemo", "TencentMapDemo\TencentMapDemo.csproj", "{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tencent3DMapDemo", "Tencent3DMapDemo\Tencent3DMapDemo.csproj", "{CA9358E4-3753-4C94-9F7D-8802711A9022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E67CFA9-D383-4459-80EB-13F79E0EFADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E67CFA9-D383-4459-80EB-13F79E0EFADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E67CFA9-D383-4459-80EB-13F79E0EFADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E67CFA9-D383-4459-80EB-13F79E0EFADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2B9BDA-AD39-4C7E-94DC-250AB4ECF2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2B9BDA-AD39-4C7E-94DC-250AB4ECF2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2B9BDA-AD39-4C7E-94DC-250AB4ECF2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2B9BDA-AD39-4C7E-94DC-250AB4ECF2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66D2FA1-55E8-4BF7-9B58-C7761FE45EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66D2FA1-55E8-4BF7-9B58-C7761FE45EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66D2FA1-55E8-4BF7-9B58-C7761FE45EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66D2FA1-55E8-4BF7-9B58-C7761FE45EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D623AF1-87DD-41D5-8F6F-1C126B5B7BE8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA9358E4-3753-4C94-9F7D-8802711A9022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9358E4-3753-4C94-9F7D-8802711A9022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9358E4-3753-4C94-9F7D-8802711A9022}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA9358E4-3753-4C94-9F7D-8802711A9022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9358E4-3753-4C94-9F7D-8802711A9022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9358E4-3753-4C94-9F7D-8802711A9022}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {796648A8-4515-4260-B338-F8CB0754296A}
+	EndGlobalSection
+EndGlobal
