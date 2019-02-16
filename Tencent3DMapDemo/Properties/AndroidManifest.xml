@@ -22,7 +22,7 @@
   
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
 
-    <meta-data android:name="TencentMapSDK" android:value="C7UBZ-Z7Y3U-6Z5VS-BJZYG-S3XCS-L3BC4" />
+    <meta-data android:name="TencentMapSDK" android:value="" />
     
   </application>
 </manifest>
