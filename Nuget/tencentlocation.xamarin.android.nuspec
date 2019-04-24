@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TencentLocation.Xamarin.Android</id>
+    <version>7.1.6.1</version>
+    <authors>ricarod_jar</authors>
+    <owners>ricarod_jar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/code-jar/TencentMap.Xamarin.Android</projectUrl>
+    <description>腾讯定位SDK  Xamarin.Android绑定库</description>
+    <tags>tencent-location-sdk</tags>
+  </metadata>
+<files>
+ <file src="..\TencentLocationSdk\bin\Release\*.dll" target="lib\monoandroid81" />
+</files>
+</package>

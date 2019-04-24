@@ -58,7 +58,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\TencentLocationSdk_v7.1.4.3_r4aa8ac63_20180911_165428.jar" />
+    <EmbeddedJar Include="Jars\TencentLocationSdk_v7.1.6.1_r67ba7298_20190409_142648.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

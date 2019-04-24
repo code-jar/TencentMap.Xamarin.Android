@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Tencent3DMap.Xamarin.Android</id>
+    <version>4.2.3</version>
+    <authors>ricarod_jar</authors>
+    <owners>ricarod_jar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/code-jar/TencentMap.Xamarin.Android</projectUrl>
+    <description>腾讯3D地图SDK Xamarin.Android绑定库</description>
+    <tags>tencent-3dmap-sdk</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.v4" version="23.4.0.1" />
+    </dependencies>
+  </metadata>
+<files>
+ <file src="..\TencentMapSDK_Android_3D\bin\Release\TencentMapSDK_Android_3D.dll" target="lib\monoandroid81" />
+</files>
+</package>
