@@ -6,17 +6,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-
-  <!--<attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onDoubleTap' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onDoubleTapTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onDown' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onDownTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onFling' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onFlingTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onLongPress' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onLongPressTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onMapStable' and count(parameter)=0]" name="managedName">onLongPressTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onScroll' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onScrollTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onSingleTap' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onSingleTapTrigger</attr>
-  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']/method[@name='onUp' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" name="managedName">onUpTrigger</attr>-->
   
-
+  <attr path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps']/class[@name='TencentMapOptions']/method[@name='setTypeface' and count(parameter)=1 and parameter[1][@type='android.graphics.Typeface']]" name="managedName">SetTypeFace</attr>
+  
+  
+  <remove-node path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps']/class[@name='BaseMapView']" />  
   <remove-node path="/api/package[@name='com.tencent.tencentmap.mapsdk.maps.model']/interface[@name='TencentMapGestureListener']" />
 
 </metadata>
